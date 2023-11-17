@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -53,6 +54,44 @@ namespace CallDLL
             {
                 int resultTestMinus = DllTest.testMinus(numText1, numText2);
                 textBox5.Text = String.Concat(resultTestMinus);
+            }
+            else
+            {
+                MessageBox.Show("请输入数字");
+            }
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            string strText6 = textBox6.Text.Trim();
+            string strText7 = textBox7.Text.Trim();
+            int numText1;
+            int numText2;
+            bool isNumber1 = int.TryParse(strText6, out numText1);
+            bool isNumber2 = int.TryParse(strText7, out numText2);
+            if (isNumber1 && isNumber2)
+            {
+                string resultMinus = ComTest.minus("FD8BA821-DB63-42DC-80D5-E0F46B23CFD4", numText1, numText2);
+                textBox8.Text = String.Concat(resultMinus);
+            }
+            else
+            {
+                MessageBox.Show("请输入数字");
+            }
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            string strText9 = textBox9.Text.Trim();
+            string strText10 = textBox10.Text.Trim();
+            int numText1;
+            int numText2;
+            bool isNumber1 = int.TryParse(strText9, out numText1);
+            bool isNumber2 = int.TryParse(strText10, out numText2);
+            if (isNumber1 && isNumber2)
+            {
+                string resultDivide = ComTest.divide("FD8BA821-DB63-42DC-80D5-E0F46B23CFD4", numText1, numText2);
+                textBox11.Text = String.Concat(resultDivide);
             }
             else
             {

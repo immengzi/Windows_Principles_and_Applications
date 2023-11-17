@@ -7,21 +7,35 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="145,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101"/>
-        <Label Content="求阶乘：" HorizontalAlignment="Left" Margin="92,124,0,0" VerticalAlignment="Top"/>
-        <Label Content="=" HorizontalAlignment="Left" Margin="270,124,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="294,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="作差：" HorizontalAlignment="Left" Margin="98,161,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="162,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
-        <Label Content="=" HorizontalAlignment="Left" Margin="329,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.751,0.466"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="364,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="250,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.262,0.653"/>
-        <Label Content="-" HorizontalAlignment="Left" Margin="224,161,0,0" VerticalAlignment="Top"/>
-        <Label Content="|" HorizontalAlignment="Left" Margin="144,161,0,0" VerticalAlignment="Top"/>
-        <Label Content="|" HorizontalAlignment="Left" Margin="306,161,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="调用DLL" HorizontalAlignment="Left" Margin="441,127,0,0" VerticalAlignment="Top" Width="67" Click="button1_Click"/>
-        <Button x:Name="button2" Content="调用DLL" HorizontalAlignment="Left" Margin="441,164,0,0" VerticalAlignment="Top" Width="67" Click="button2_Click"/>
-        <Label Content="!" HorizontalAlignment="Left" Margin="252,124,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="228,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101"/>
+        <Label Content="求阶乘：" HorizontalAlignment="Left" Margin="175,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="353,117,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="377,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="求差：" HorizontalAlignment="Left" Margin="181,154,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="245,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="412,154,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.751,0.466"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="447,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="333,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.262,0.653"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="307,154,0,0" VerticalAlignment="Top"/>
+        <Label Content="|" HorizontalAlignment="Left" Margin="227,154,0,0" VerticalAlignment="Top"/>
+        <Label Content="|" HorizontalAlignment="Left" Margin="389,154,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="调用DLL" HorizontalAlignment="Left" Margin="524,120,0,0" VerticalAlignment="Top" Width="67" Click="button1_Click"/>
+        <Button x:Name="button2" Content="调用DLL" HorizontalAlignment="Left" Margin="524,157,0,0" VerticalAlignment="Top" Width="67" Click="button2_Click"/>
+        <Label Content="!" HorizontalAlignment="Left" Margin="335,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="求差：" HorizontalAlignment="Left" Margin="181,254,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Margin="245,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="377,254,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.751,0.466"/>
+        <TextBox x:Name="textBox8" HorizontalAlignment="Left" Margin="404,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="textBox7" HorizontalAlignment="Left" Margin="317,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.262,0.653"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="299,254,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button3" Content="调用COM" HorizontalAlignment="Left" Margin="524,257,0,0" VerticalAlignment="Top" Width="67" Click="button3_Click"/>
+        <Label Content="除：" HorizontalAlignment="Left" Margin="193,292,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox9" HorizontalAlignment="Left" Margin="245,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="377,292,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.751,0.466"/>
+        <TextBox x:Name="textBox11" HorizontalAlignment="Left" Margin="404,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="textBox10" HorizontalAlignment="Left" Margin="317,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.262,0.653"/>
+        <Label Content="/" HorizontalAlignment="Left" Margin="299,292,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button4" Content="调用COM" HorizontalAlignment="Left" Margin="524,295,0,0" VerticalAlignment="Top" Width="67" Click="button4_Click"/>
 
     </Grid>
 </Window>
